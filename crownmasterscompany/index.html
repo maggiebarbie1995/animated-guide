@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CROWNMASTERSCOMPANY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Painting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Wall Masters</a>            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gypsum</a>            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <div class="container">
+      <div id="overlay">
+          <div id="banner">         
+    <script>
+      var i = 0; 
+      var images = [];
+      var time = 4000;      
+      images[0] = "image/images.jpg";
+      images[1] = "image/images1.png";
+      images[2] = "image/images2.jpg";
+      images[3] = "image/images3.jpg";  
+      images[4] = "image/images4.jpg";
+      images[5] = "image/images5.jpg";
+      images[6] = "image/images6.jpg";
+      images[7] = "image/images7.jpg";
+      images[8] = "image/images8.jpg";
+      images[9] = "image/images9.jpg";
+      images[10] = "image/images10.jpg";
+      images[11] = "image/images11.jpg";
+      images[12] = "image/images12.jpg";
+      images[13] = "image/images13.jpeg";
+      images[14] = "image/images14.jpg";  
+      images[15] = "image/images15.jpg";  
+      images[16] = "image/images16.jpeg";
+      images[17] = "image/images17.jpg";
+      images[18] = "image/images18.jpg";
+      images[19] = "image/images19.jpg";
+      images[20] = "image/images20.jpg";
+      images[21] = "image/images21.jpg";
+      images[22] = "image/images22.jpg";
+      images[23] = "image/images23.jpg";
+      images[24] = "image/images24.jpg";
+      images[25] = "image/images25.jpeg";
+      function changeimg() {
+        document.slide.src = images[i];
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout("changeimg()", time);
+      }
+      window.onload = changeimg;
+    </script>
+    <img name="slide" width="100%" height="950" style="align-items: center;"/>
+  </body>
+</html>

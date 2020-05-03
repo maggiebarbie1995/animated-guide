@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var i = 0; // Start point
+      var images = [];
+      var time = 4000;
+      // Image List
+      images[0] = "Image/0121.jpg";
+      images[1] = "Image/download.jpeg";
+      images[2] = "Image/images.jpeg";
+      images[3] = "Image/images1.jpeg";      
+      // Change Image
+      function changeImg() {
+        document.slide.src = images[i];
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout("changeImg()", time);
+      }
+      window.onload = changeImg;
+    </script>
+    <img name="slide" width="100%" height="950" style="align-items: center;" />
+  </body>
+</html>
