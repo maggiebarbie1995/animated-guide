@@ -63,3 +63,6 @@ body {
     background: transparent;
     color: white;
   }
+  .form-control::-webkit-input-placeholder {
+    color: white;
+  }
