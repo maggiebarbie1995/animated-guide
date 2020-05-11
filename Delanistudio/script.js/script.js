@@ -13,3 +13,17 @@ let comment = function(name, email) {
       comment(userName, email);
     });
   });
+  $(document).ready(function(){
+    $(".details1").click(function(){
+      $("#design").toggle();
+      $(".toggleDesignLogo").toggle();
+    })
+    $(".details2").click(function(){
+      $("#development").toggle();
+      $(".toggleDevLogo").toggle();
+    })
+    $(".details3").click(function(){
+      $("#product").toggle();
+      $(".toggleProductLogo").toggle();
+    });
+  });
