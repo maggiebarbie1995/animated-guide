@@ -27,3 +27,29 @@ let comment = function(name, email) {
       $(".toggleProductLogo").toggle();
     });
   });
+  $(document).ready(function(){
+    $(".workLogo1").hover(function(){
+      $(".text1").fadeToggle();
+    });
+    $(".workLogo2").hover(function(){
+      $(".text2").fadeToggle();
+    });
+    $(".workLogo3").hover(function(){
+      $(".text3").fadeToggle();
+    });
+    $(".workLogo4").hover(function(){
+      $(".text4").fadeToggle();
+    });
+    $(".workLogo5").hover(function(){
+      $(".text5").fadeToggle();
+    });
+    $(".workLogo6").hover(function(){
+      $(".text6").fadeToggle();
+    });
+    $(".workLogo7").hover(function(){
+      $(".text7").fadeToggle();
+    });
+    $(".workLogo8").hover(function(){
+      $(".text8").fadeToggle();
+    });
+  });
