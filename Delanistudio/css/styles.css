@@ -83,3 +83,10 @@ body {
     background-color:rgba(255, 255, 255, 0.456);
     color: black;
   }
+  .toggleDesignLogo, .toggleDevLogo, .toggleProductLogo{
+    display: none;
+  }
+  /*.worklogo:hover .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
+    display:block;
+  }*/
+  
