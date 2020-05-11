@@ -45,3 +45,17 @@ body {
   .portfolio{
     text-align: center;
   }
+  #contact{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
