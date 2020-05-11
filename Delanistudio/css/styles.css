@@ -66,3 +66,7 @@ body {
   .form-control::-webkit-input-placeholder {
     color: white;
   }
+  .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6, .workLogo7, .workLogo8{
+    margin-bottom: 20px;
+    position: relative;
+  }
