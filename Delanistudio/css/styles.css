@@ -27,3 +27,15 @@ body {
   .aboutUs{
     text-align: center;
   }
+  .services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
